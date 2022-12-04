@@ -13,6 +13,9 @@
     "files": [
       "out/**/*"
     ],
+    "publishConfig": {
+      "access": "public"
+    },
     "scripts": {
       "compile": "tsc -p ./",
       "lint": "eslint src --ext ts --fix",
