@@ -7,7 +7,7 @@ interface Locale {
 }
 
 /**
- * Source: ftp://ftp.unicode.org/Public/UCD/latest/ucd/SpecialCasing.txt
+ * Source: ftp://ftp.unicode.org/Public/UCD/latest/ucd/SpecialCasing.txt.
  */
 const SUPPORTED_LOCALE: Record<string, Locale> = {
   tr: {
